@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<div class="full-menu">
+		<div class="content font-white">
+			<div class="box4">
+				<img src="image/no-image.jpg" alt="" class="thumb-full-menu">
+				<h2>Lorem ipsum dolor</h2>
+				<p class="tagline">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+					Fuga doloremque animi at, error saepe voluptatibus cupiditate nulla excepturi, 
+					pariatur facilis modi temporibus est incidunt dignissimos ullam eligendi minus voluptatem dolore.
+				</p>
+				<button class="btn">Leia mais</button>
+			</div>
+			<div class="box4">
+				<img src="image/no-image.jpg" alt="" class="thumb-full-menu">
+				<h2>Lorem ipsum dolor</h2>
+				<p class="tagline">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+					Fuga doloremque animi at, error saepe voluptatibus cupiditate nulla excepturi, 
+					pariatur facilis modi temporibus est incidunt dignissimos ullam eligendi minus voluptatem dolore.
+				</p>
+				<button class="btn">Leia mais</button>
+			</div>
+			<div class="box4">
+				<img src="image/no-image.jpg" alt="" class="thumb-full-menu">
+				<h2>Lorem ipsum dolor</h2>
+				<p class="tagline">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+					Fuga doloremque animi at, error saepe voluptatibus cupiditate nulla excepturi, 
+					pariatur facilis modi temporibus est incidunt dignissimos ullam eligendi minus voluptatem dolore.
+				</p>
+				<button class="btn">Leia mais</button>
+			</div>
+			<div class="box4">
+				<img src="image/no-image.jpg" alt="" class="thumb-full-menu">
+				<h2>Lorem ipsum dolor</h2>
+				<p class="tagline">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+					Fuga doloremque animi at, error saepe voluptatibus cupiditate nulla excepturi, 
+					pariatur facilis modi temporibus est incidunt dignissimos ullam eligendi minus voluptatem dolore.
+				</p>
+				<button class="btn">Leia mais</button>
+			</div>
+			
+			<div class="clear"></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+	<div class="hamburguer">
+		<div class="lines line-top"></div>
+		<div class="lines line-mid"></div>
+		<div class="lines line-bottom"></div>
+	</div>
+
+	<div class="menu-wrapper">
+		<div class="menu-button">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<ul>
+			<li class="menu-list-item"><a>item1</a></li>
+			<li class="menu-list-item"><a>item2</a></li>
+			<li class="menu-list-item"><a>item3</a></li>
+		</ul>
+	</div>
+
+	<main class="content">
+		<iframe 
+		data-thumbnail="thumb_1280_600" 
+		noresize="noresize" 
+		class="pano copyright appeared" 
+		src="https://webxells.com/downloads/_pano2/musik02_.html" 
+		frameborder="0" 
+		allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"
+		></iframe>
+	</main>
+
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	
+
+	<!-- filters are defined in svgs -->
+
+	<svg class="svg-filters" xmlns="http://www.w3.org/2000/svg" version="1.1">
+		<defs>
+			<filter id="goo">
+				<!-- BLUR FILTER -->
+				<feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+				<!-- CONTRAST FILTER -->
+				<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+				<!-- MAKE ORIGINAL IMAGE VISIBLE CLEARLY -->
+				<feBlend in="SourceGraphic" in2="goo" />
+			</filter>
+		</defs>
+	</svg>
+</body>
+</html>
