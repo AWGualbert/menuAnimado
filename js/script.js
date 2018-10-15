@@ -1,12 +1,18 @@
 //Using Vanilla JS
+let $ = document.querySelector.bind(document);
+
 document.querySelector(".hamburguer").addEventListener("click", function(){
-	let $ = document.querySelector.bind(document);
 
 	$(".full-menu").classList.toggle("active");
 	$(".hamburguer").classList.toggle("close-hamburguer");
 	$(".full-menu .content").classList.toggle("slideR");
 	$(".full-menu .content").classList.toggle("zoom");
 
+});
+
+$("#item-1").addEventListener("click", function(){
+	$(".item-1").classList.toggle("active");
+	$(".item-1").classList.toggle("boxSlideLeft");
 });
 
 //menu rigth animation
